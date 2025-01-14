@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow',sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+overflow-x: hidden;
+
+}
+h2{
+    transition: all .3s;
+}
+hr{
+    width: 181.1%;
+    position: relative;
+    left: -50%;
+    margin-bottom: 50px;
+    opacity: 0.2;
+}
+/* header */
+.allElementsLogo{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 80px;
+}
+.logo{
+display: flex;
+justify-content: space-around;
+margin: 20px 0px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.leftInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+.leftText{
+    display: flex;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #48494D;
+}
+.logoSmiles{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.rightInfo{
+    display: flex;
+    gap: 40px;
+}
+.logoLocation{
+    display: flex;
+}
+.locationText{ 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px; 
+    margin-left: 4px;
+}
+.imgLocation{
+    width: 26.19px;
+height: 27.5px;
+}
+.koleso{
+    width: 101.71px;
+height: 51.12px;
+}
+.mnogo{
+    width: 196px;
+height: 25px;
+}
+.lowerLogo{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1172px;
+height: 25px;
+}
+.lowerLogoSection{
+    display: flex;
+    justify-content: center;
+    border-bottom:  1px solid #000000;
+border-top:1px solid #000000 ;
+}
+.lowerText{
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #48494D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.allLowerText{
+    display: flex;
+    margin-left: 42px;
+}
+ /* конец header */
+.bistriPoisk{
+    display: flex;
+margin: 25px 0px;
+    gap: 40px;
+}
+.container{
+    width: 1170px;
+}
+.cardCategoria{
+    display: flex;
+    border: 1px solid #bbbbbb;
+    width: fit-content;
+    padding: 10px;
+    width: 354px;
+    justify-content: space-between;
+    transition: all .3s;
+}
+.cardCategoria:hover{
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
+    transition: .3s;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+}
+.cardCategoria:hover h2{
+color: #ff7931;
+transition: .3s;
+}
+.pereitiCat{
+    font-size: 20px;
+    color: #b3b3b3;
+}
+.cardsCategories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px 0px;
+}
+.textCardCat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.activePoisk{
+    background-color: #dadada;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.poisk{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.poiskPoMarke input{
+    width: 100%;
+    background-color: #f7f7f7;
+    border: 0;
+    padding: 10px;
+}
+.poiskPoMarke{
+    display: flex;
+}
+.buttonIskat{
+    padding: 10px 20px;
+    background-color: #ff7931;
+color: #ffffff;
+border-radius: 3px;
+margin-left: -5px;
+cursor: pointer;
+}
+.catTovara{
+    display: flex;
+    gap: 40px;
+}
+.categoria{
+    padding: 5px 0px;
+    cursor: pointer;
+}
+.catActive{
+    font-weight: bold;
+    border-bottom: 2px solid #ff7931 ;
+}
+.conTovari{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 50px;
+}
+.tovar{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: 1px rgb(175, 175, 175) solid;
+    border-radius: 5px;
+    padding: 40px 10px 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+.tovar:hover{
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    transition: .3s;
+}
+.fastView{
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 100px;
+    transition: 0.3s;
+}
+.tovar:hover .fastView{
+    opacity: 1;
+    transition: 0.3s;
+}
+.tovar p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.tovar p:last-of-type{
+    font-weight: bold;
+}
+.like{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.snow{
+    position: absolute;
+    top: 8px;
+    right: 45px;
+}
+.korzina{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.saleCon{
+    position: absolute;
+    top: 18px;
+    left: -19px;
+    transform: rotate(270deg);
+    background: linear-gradient(to right, #9912e5, #f7864d);
+    padding: 5px 10px 3px;
+    color: white;
+    font-weight: bold;
+}
+.smotret{
+    cursor: pointer;
+    margin: auto;
+    width: fit-content;
+    padding: 20px 70px;
+    text-transform: uppercase;
+    background-color: #f0f0f4;
+    opacity: .5;
+    font-weight: bold;
+    transition: .3s;
+}
+.smotret:hover{
+    transition: .3s;
+    color: #FFFFFF;
+    background-color: #f7864d;
+    opacity: 1;
+
+}
+footer {
+    width: 100%;
+    background-color: #f4f4f6;
+    margin-top: 50px;
+}
+.footerCon{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px 0px 200px;
+}
+.rassilkaText {
+    width: 230px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* вместо черного */
+    color: #48494D;
+}
+
+.vvodRassilki {
+    width: 185px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 0px;
+    padding-left: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #48494D;
+}
+.blockVvod{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.conInternetMagazineOsob{
+    display: flex;
+    align-items: flex-end;
+}
+.osobCon2{
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.prava{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 285px;
+    color: #c7c7c8;
+    font-size: 14px;
+}
+.otpravEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    width: 109px;
+height: 33px;
+background: #f7864d;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.zaglavInfoFooter{
+    margin-bottom: 15px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* вместо черного */
+color: #48494D;
+}
+.infoFooter{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+/* вместо черного */
+color: #48494D;
+margin-bottom: 5px;
+transition: .3s;
+cursor: pointer;
+}
+
+
+
