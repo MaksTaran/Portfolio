@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+.text-intro{
+  margin: 0 150px 0;
+}
+
+ .text-intro h1{
+  font-size:43px;
+  width:510px;
+  text-transform:uppercase;
+  color:#000000;
+  font-weight:900;
+  line-height:70px;
+}
+
+.text-intro p{
+  font-size:13px;
+  color:#8d8d8d;
+  margin-top:30px;
+  font-weight:400;
+  line-height:22px;
+  letter-spacing:1px;
+  width:300px;
+}
+main{
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+}
+.portfolio-grid{
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+  display: flex;
+  padding: 20px;
+}
+
+
+
+li.grid-item{
+  width:460px;
+  position:relative;
+  float:left;
+  padding:15px;
+  list-style-type: none;
+}
+
+.grid-hover{
+  position: absolute;
+  width:460px;
+  height: 95%;
+  top:0;
+  background: rgb(77, 77, 77);
+  z-index: 2;
+  opacity: 0;
+	transition: all 0.3s ease-in; 
+}
+
+.grid-hover:hover{
+  opacity: 0.9;
+}
+
+.grid-hover h1{
+  font-size:23px;
+  bottom:80px;
+  left:40px;
+  position:absolute;
+  text-transform:uppercase;
+  color:#ffffff;
+  letter-spacing:1px;
+  font-weight:900;
+  line-height:50px;
+}
+
+.grid-hover p{
+  font-size:13px;
+  bottom:40px;
+  left:40px;
+  position:absolute;
+  color:#bbbbbb;
+  letter-spacing:1px;
+  font-weight:400;
+  line-height:50px;
+}
+
+li.grid-item img{
+  width:460px;
+}
