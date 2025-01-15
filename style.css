@@ -98,3 +98,62 @@ li.grid-item{
 li.grid-item img{
   width:460px;
 }
+@media screen and (max-width:1480px) {
+  main{
+    flex-wrap: wrap;
+   justify-content: center;
+  }
+  .text-intro{
+    margin: 0;
+  }
+  .text-intro h1{
+    font-size: 33px;
+    width: 80%;
+    line-height:normal;
+    margin-bottom: 20px;
+  }
+  .text-intro p{
+    font-size: 16px;
+    width: 80%;
+  }
+  
+}
+@media screen and (max-width:550px) {
+  main{
+    flex-wrap: wrap;
+   justify-content: center;
+  }
+  .text-intro{
+    margin: 0;
+  }
+  .text-intro h1{
+    font-size: 25px;
+    width: 290px;
+    line-height:normal;
+    margin-bottom: 20px;
+  }
+  .text-intro p{
+    font-size: 10px;
+    width:290px;
+  }
+  li.grid-item img{
+    width:260px;
+  }
+  .grid-hover{
+    width:260px;
+  }
+  li.grid-item{
+    width:260px;
+    padding:10px;
+  }
+  .grid-hover h1{
+    font-size:18px;
+    bottom:60px;
+  line-height: normal;
+  }
+  .grid-hover p{
+    font-size:10px;
+    bottom:30px;
+    line-height:normal;
+  }
+}
