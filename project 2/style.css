@@ -376,4 +376,170 @@ cursor: pointer;
 }
 
 
+/* Адаптация для экранов с max-width 1400px */
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .catTovara {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .logoLocation{
+        align-items: center;
+    }
+    .cardCategoria{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .allElementsLogo {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
 
+    .rightInfo, .leftInfo {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsCategories {
+        gap: 15px;
+    }
+
+    .cardCategoria {
+        width: 45%;
+    }
+
+    .cardCategoria img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .conTovari {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .tovar {
+        width: 200px;
+    }
+
+    .tovar img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footerCon {
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .blockVvod {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .blockVvod input {
+        margin-bottom: 10px;
+    }
+}
+
+/* Адаптация для экранов с max-width 450px */
+@media screen and (max-width: 450px) {
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .leftInfo, .rightInfo {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .bistriPoisk {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardsCategories {
+        gap: 10px;
+    }
+
+    .cardCategoria {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardCategoria img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .conTovari {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .tovar {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .tovar img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footerCon {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .blockVvod {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blockVvod input {
+        width: 100%;
+    }
+
+    .infoFooter {
+        font-size: 12px;
+    }
+
+    .prava {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+/* Общие стили для всех экранов */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
